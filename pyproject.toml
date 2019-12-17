@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fabi-stuff"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+bs4 = "^0.0.1"
+mechanize = "^0.4.4"
+requests = "^2.22"
+cookiejar = "^0.0.2"
+selenium = "^3.141"
+pandas = "^0.25.3"
+xlrd = "^1.2"
+openpyxl = "^3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
