@@ -36,8 +36,8 @@ def setup(linknum):
     #site = "https://www.familysearch.org/search/record/results?record_country=Chile&collection_id=1520559&birth_place1=8%2CChile&death_year0=1800&count=100&offset=0"
     #site = "https://www.familysearch.org/search/record/results?record_country=Chile&collection_id=1520559&birth_place1=8%2CChile&death_year1=1800~1800&count=100&offset=0"
     site = links[linknum]
-    username = "fabian.wulfrath@me.com"
-    password = "vejqyb-qumfi0-suPsuw"
+    username = ""       //FILL THESE OUT
+    password = ""
     driver.get(site)
     driver.find_element_by_id("userName").send_keys(username)
     driver.find_element_by_id("password").send_keys(password)
